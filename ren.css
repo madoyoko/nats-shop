@@ -1,0 +1,22 @@
+/*みだし(h1,h2,h3)に同時に当たるスタイル*/
+h1,h2,h3{color:#49f}
+/*main のh2 だけ*/
+.wrap main h2{font-weight:100}
+/*メインのDivだけ*/
+main{color:#f94}
+/* アーティクルの直下Divだけ */
+article > div {color:#94f}
+/* footer以外のcontentに */
+.content:not(footer){letter-spacing: 3px;}
+/* contentに隣接する兄弟のpだけ */
+.content + p{border-bottom: solid 1px;}
+/*contentがついたpタグだけ*/
+p.content{background: #333;color:#fff;}
+/*月日の入力BOXを幅2文字分に */
+input[type="number"] {width: 2em;}
+/* ここはフッターid span */
+#id span {color:#5e9;}
+/*月日の入力BOXを2文字分の幅にする */
+input[type="number"] {width: 2em;}
+/*content と prを持つタグすべて*/
+.content.pr {font-size: .5em;}

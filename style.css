@@ -1,0 +1,38 @@
+@charset "UTF-8";
+body{
+	background-color: white;
+	background-image: url(logo.png);
+	background-size: 70px 70px;
+	background-repeat: repeat-y;
+	
+	padding-left: 70px;
+}
+footer{
+	background-color: saddlebrown;
+	margin: 20px 0px 0px -10px;
+	padding: 10px;
+}
+.product {
+    padding: 15px 25px;
+    width: 25%;
+    box-sizing: border-box;
+}
+th, td {
+	padding: 5px;
+}
+a {
+	padding-right: 10px;
+}
+
+
+.c-product-list__fav-item svg {
+	width: 20px;    height: 20px;
+}
+.product-image img{width: 25%;}
+
+.customer-name{position: absolute; right: 0; padding-right: 1em;}
+.memnunav{position: relative;}
+
+.products{display: flex;flex-wrap:wrap}
+.product{padding: 15px 25px; width:25% ; box-sizing: border-box;}
+.product .img img{width: 100%;}
